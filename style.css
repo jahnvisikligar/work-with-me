@@ -11,7 +11,11 @@
 .hero p{margin:18px 0 0;max-width:760px;color:rgba(251,249,243,.92);font-size:clamp(15px,1.5vw,21px);line-height:1.55}
 .section-shell{padding:44px clamp(24px,5vw,78px) 42px}.expertise{display:grid;grid-template-columns:minmax(190px,.95fr) 4fr;align-items:center;gap:clamp(24px,3vw,48px)}
 .section-intro h2,.platforms h2{margin:0;font:600 clamp(35px,4vw,52px)/.98 "Cormorant Garamond",Georgia,serif;letter-spacing:-.025em}
-.short-rule{display:block;width:50px;height:1px;background:#6b8ba0;margin-top:26px}
+.short-rule{display:none;
+            width:50px;
+            height:1px;
+            background:#6b8ba0;
+            margin-top:26px}
 .expertise-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
 .expertise-item{min-height:190px;padding:24px 10px 20px;border:1px solid var(--line);border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center}
 .expertise-item svg{width:38px;height:38px;fill:none;stroke:var(--blue);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
